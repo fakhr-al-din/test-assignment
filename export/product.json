@@ -1,0 +1,42 @@
+{
+    "id": "106185651",
+    "name": "Чехол для Apple iPhone 13 прозрачный",
+    "category": "Чехлы для смартфонов",
+    "specifications": {
+        "Характеристики": {
+            "Тип": "накладка с защитой камеры",
+            "Совместимый бренд": "Apple",
+            "Совместимые модели": "iPhone 13",
+            "Особенности": "ударопрочный, от царапин и пыли",
+            "Дополнительная информация": "усиленные углы, защита камеры",
+            "Материал": "силикон",
+            "Модель/Артикул производителя": "009732",
+            "Цвет": "прозрачный",
+            "Рисунок": "однотонный"
+        }
+    },
+    "images": [
+        {
+            "small": "https://resources.cdn-kaspi.kz/img/m/p/h5c/hec/86261115060254.png?format=gallery-small",
+            "medium": "https://resources.cdn-kaspi.kz/img/m/p/h5c/hec/86261115060254.png?format=gallery-medium",
+            "large": "https://resources.cdn-kaspi.kz/img/m/p/h5c/hec/86261115060254.png?format=gallery-large",
+            "location": "h5c/hec/86261115060254.png"
+        },
+        {
+            "small": "https://resources.cdn-kaspi.kz/img/m/p/pa2/pc5/64215961.jpg?format=gallery-small",
+            "medium": "https://resources.cdn-kaspi.kz/img/m/p/pa2/pc5/64215961.jpg?format=gallery-medium",
+            "large": "https://resources.cdn-kaspi.kz/img/m/p/pa2/pc5/64215961.jpg?format=gallery-large",
+            "location": "pa2/pc5/64215961.jpg"
+        },
+        {
+            "small": "https://resources.cdn-kaspi.kz/img/m/p/p86/pc5/64215962.jpg?format=gallery-small",
+            "medium": "https://resources.cdn-kaspi.kz/img/m/p/p86/pc5/64215962.jpg?format=gallery-medium",
+            "large": "https://resources.cdn-kaspi.kz/img/m/p/p86/pc5/64215962.jpg?format=gallery-large",
+            "location": "p86/pc5/64215962.jpg"
+        }
+    ],
+    "rating": 5.0,
+    "reviews_count": 10579,
+    "max_price": 200000.0,
+    "min_price": 10.0
+}

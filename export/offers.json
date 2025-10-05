@@ -1,0 +1,702 @@
+[
+    {
+        "merchant_id": "15448103",
+        "merchant_name": "ALIMSOUL",
+        "price": 1999.0
+    },
+    {
+        "merchant_id": "17277423",
+        "merchant_name": "ИП TECHNO PLUS",
+        "price": 750.0
+    },
+    {
+        "merchant_id": "16207741",
+        "merchant_name": "DIL-MARKET",
+        "price": 442.0
+    },
+    {
+        "merchant_id": "17543466",
+        "merchant_name": "SimMob",
+        "price": 800.0
+    },
+    {
+        "merchant_id": "6282033",
+        "merchant_name": "case.almaty108",
+        "price": 1200.0
+    },
+    {
+        "merchant_id": "12592030",
+        "merchant_name": "BASIL SHOP",
+        "price": 999.0
+    },
+    {
+        "merchant_id": "16033005",
+        "merchant_name": "QPick",
+        "price": 200.0
+    },
+    {
+        "merchant_id": "18505100",
+        "merchant_name": "ИП СЫЗДЫКОВА",
+        "price": 1000.0
+    },
+    {
+        "merchant_id": "17118196",
+        "merchant_name": "ИП ЯКЬЯРОВА",
+        "price": 4990.0
+    },
+    {
+        "merchant_id": "17118280",
+        "merchant_name": "ИП GASS CASE",
+        "price": 1250.0
+    },
+    {
+        "merchant_id": "18355028",
+        "merchant_name": "Чехлы на все телефоны",
+        "price": 798.0
+    },
+    {
+        "merchant_id": "18234202",
+        "merchant_name": "Comfort ALA",
+        "price": 500.0
+    },
+    {
+        "merchant_id": "1267000",
+        "merchant_name": "SOTKA URALSK",
+        "price": 990.0
+    },
+    {
+        "merchant_id": "16902332",
+        "merchant_name": "R-CASE",
+        "price": 3000.0
+    },
+    {
+        "merchant_id": "16488648",
+        "merchant_name": "ИП СУЛТАН",
+        "price": 500.0
+    },
+    {
+        "merchant_id": "30191196",
+        "merchant_name": "ИП СУЛТАН",
+        "price": 3000.0
+    },
+    {
+        "merchant_id": "18282318",
+        "merchant_name": "SKYBET",
+        "price": 450.0
+    },
+    {
+        "merchant_id": "1050022",
+        "merchant_name": "Aladdin",
+        "price": 699.0
+    },
+    {
+        "merchant_id": "1770000",
+        "merchant_name": "WebMart",
+        "price": 1200.0
+    },
+    {
+        "merchant_id": "5072014",
+        "merchant_name": "TM Brilliant professional",
+        "price": 400.0
+    },
+    {
+        "merchant_id": "15696143",
+        "merchant_name": "ИП САРАДЖЕВА",
+        "price": 950.0
+    },
+    {
+        "merchant_id": "30243835",
+        "merchant_name": "ИП ZHULDYZ SHOP",
+        "price": 1500.0
+    },
+    {
+        "merchant_id": "30140227",
+        "merchant_name": "ИП \"UNION\"",
+        "price": 500.0
+    },
+    {
+        "merchant_id": "30247083",
+        "merchant_name": "Alemtop",
+        "price": 176.0
+    },
+    {
+        "merchant_id": "4849019",
+        "merchant_name": "ИП ХАН ",
+        "price": 895.0
+    },
+    {
+        "merchant_id": "30309732",
+        "merchant_name": "ИП ШАЙДУЛЛИНА",
+        "price": 5000.0
+    },
+    {
+        "merchant_id": "8965018",
+        "merchant_name": "Global Shор",
+        "price": 4000.0
+    },
+    {
+        "merchant_id": "30288908",
+        "merchant_name": "ИП ХИВА",
+        "price": 300.0
+    },
+    {
+        "merchant_id": "30316544",
+        "merchant_name": "BbCase",
+        "price": 350.0
+    },
+    {
+        "merchant_id": "30326160",
+        "merchant_name": "LAMI",
+        "price": 250.0
+    },
+    {
+        "merchant_id": "14883107",
+        "merchant_name": "ИП ADEMA",
+        "price": 2000.0
+    },
+    {
+        "merchant_id": "30313661",
+        "merchant_name": "SmartTrade1",
+        "price": 200.0
+    },
+    {
+        "merchant_id": "30288643",
+        "merchant_name": "ИП ШУКЕНОВА",
+        "price": 1000.0
+    },
+    {
+        "merchant_id": "30353012",
+        "merchant_name": "ИП SIMKA",
+        "price": 1199.0
+    },
+    {
+        "merchant_id": "30031783",
+        "merchant_name": "ИП МЕКЕБАЕВА",
+        "price": 1000.0
+    },
+    {
+        "merchant_id": "30230766",
+        "merchant_name": "Belio Charm",
+        "price": 999.0
+    },
+    {
+        "merchant_id": "4904014",
+        "merchant_name": "SpaceTech",
+        "price": 10.0
+    },
+    {
+        "merchant_id": "948012",
+        "merchant_name": "_QLIFE_",
+        "price": 100.0
+    },
+    {
+        "merchant_id": "17604225",
+        "merchant_name": "MYSUN",
+        "price": 600.0
+    },
+    {
+        "merchant_id": "30074530",
+        "merchant_name": "ИП ЧОНТЕЙ",
+        "price": 500.0
+    },
+    {
+        "merchant_id": "12603025",
+        "merchant_name": "FurniTech",
+        "price": 100.0
+    },
+    {
+        "merchant_id": "17284492",
+        "merchant_name": "ИП Oразбаев",
+        "price": 599.0
+    },
+    {
+        "merchant_id": "30336319",
+        "merchant_name": "Aisha-market1",
+        "price": 120.0
+    },
+    {
+        "merchant_id": "30372604",
+        "merchant_name": "ИП АЙСАНА",
+        "price": 10000.0
+    },
+    {
+        "merchant_id": "30378785",
+        "merchant_name": "Svyaznoi",
+        "price": 990.0
+    },
+    {
+        "merchant_id": "30362468",
+        "merchant_name": "ИП КАЛДЫБЕКОВА",
+        "price": 700.0
+    },
+    {
+        "merchant_id": "30382242",
+        "merchant_name": "ИП ПЛАНОВ",
+        "price": 400.0
+    },
+    {
+        "merchant_id": "319001",
+        "merchant_name": "TOP ELECTRO",
+        "price": 4999.0
+    },
+    {
+        "merchant_id": "13378021",
+        "merchant_name": "ИП Косжанов",
+        "price": 499.0
+    },
+    {
+        "merchant_id": "9837032",
+        "merchant_name": "Comfort hause",
+        "price": 10.0
+    },
+    {
+        "merchant_id": "30380835",
+        "merchant_name": "ИП QENEZIS",
+        "price": 160.0
+    },
+    {
+        "merchant_id": "30383328",
+        "merchant_name": "ECO LIVE KZ",
+        "price": 98.0
+    },
+    {
+        "merchant_id": "30387748",
+        "merchant_name": "ИП GADJET",
+        "price": 500.0
+    },
+    {
+        "merchant_id": "30390498",
+        "merchant_name": "ИП АСЫЛБЕК",
+        "price": 500.0
+    },
+    {
+        "merchant_id": "30390274",
+        "merchant_name": "UniversalShop KZ",
+        "price": 150.0
+    },
+    {
+        "merchant_id": "30331616",
+        "merchant_name": "ANG",
+        "price": 140.0
+    },
+    {
+        "merchant_id": "30384911",
+        "merchant_name": "ИП АЯЗБЕКОВА",
+        "price": 1000.0
+    },
+    {
+        "merchant_id": "30030528",
+        "merchant_name": "SАU",
+        "price": 290.0
+    },
+    {
+        "merchant_id": "30372211",
+        "merchant_name": "ИП ОМАРОВА",
+        "price": 400.0
+    },
+    {
+        "merchant_id": "1991000",
+        "merchant_name": "ACONA",
+        "price": 500.0
+    },
+    {
+        "merchant_id": "30393815",
+        "merchant_name": "ИП ТІЛЕУХАН",
+        "price": 990.0
+    },
+    {
+        "merchant_id": "16895139",
+        "merchant_name": "ModaX - ОФИЦИАЛЬНЫЙ МАГАЗИН",
+        "price": 200.0
+    },
+    {
+        "merchant_id": "30381397",
+        "merchant_name": "NEXTERA",
+        "price": 150.0
+    },
+    {
+        "merchant_id": "30397277",
+        "merchant_name": "GOLDEN LUX",
+        "price": 100.0
+    },
+    {
+        "merchant_id": "10544027",
+        "merchant_name": "TREND DUKEN ОФИЦИАЛЬНЫЙ МАГАЗИН",
+        "price": 10.0
+    },
+    {
+        "merchant_id": "12438048",
+        "merchant_name": "TOP MARKET",
+        "price": 10.0
+    },
+    {
+        "merchant_id": "30037450",
+        "merchant_name": "FIRDAWS ФИРМЕННЫЙ МАГАЗИН",
+        "price": 10.0
+    },
+    {
+        "merchant_id": "30383101",
+        "merchant_name": "ИП БЕШТЕНБЕКОВА",
+        "price": 300.0
+    },
+    {
+        "merchant_id": "17422294",
+        "merchant_name": "oriоn",
+        "price": 200.0
+    },
+    {
+        "merchant_id": "30393377",
+        "merchant_name": "ИП ДОСЫМБЕТ",
+        "price": 200.0
+    },
+    {
+        "merchant_id": "30242386",
+        "merchant_name": "ALI EVIM",
+        "price": 199.0
+    },
+    {
+        "merchant_id": "30400699",
+        "merchant_name": "ТОО \"SAB GLOBAL\"",
+        "price": 300.0
+    },
+    {
+        "merchant_id": "30402221",
+        "merchant_name": "BVLBROWN",
+        "price": 69.0
+    },
+    {
+        "merchant_id": "30101241",
+        "merchant_name": "Alone Store",
+        "price": 1000.0
+    },
+    {
+        "merchant_id": "30388344",
+        "merchant_name": "LUXORIA",
+        "price": 100.0
+    },
+    {
+        "merchant_id": "30288396",
+        "merchant_name": "СВЕТОЧ HOME",
+        "price": 250.0
+    },
+    {
+        "merchant_id": "30393474",
+        "merchant_name": "ИП САЙДАЗИМОВ",
+        "price": 200.0
+    },
+    {
+        "merchant_id": "30403909",
+        "merchant_name": "ИП БАҚЫТЖАН",
+        "price": 1000.0
+    },
+    {
+        "merchant_id": "30379195",
+        "merchant_name": "ИП СЕЗІМ",
+        "price": 420.0
+    },
+    {
+        "merchant_id": "30368852",
+        "merchant_name": "Bari Bar",
+        "price": 490.0
+    },
+    {
+        "merchant_id": "30387569",
+        "merchant_name": "TOPI SHOP",
+        "price": 10.0
+    },
+    {
+        "merchant_id": "30398975",
+        "merchant_name": "ИП AI ACKSES_SEMEY",
+        "price": 1000.0
+    },
+    {
+        "merchant_id": "30327727",
+        "merchant_name": "ТОО \"WINTRADE\"",
+        "price": 320.0
+    },
+    {
+        "merchant_id": "30397654",
+        "merchant_name": "ИП ОРЫНБАСАР",
+        "price": 1000.0
+    },
+    {
+        "merchant_id": "30395585",
+        "merchant_name": "ИП HOZMAG 1000МЕЛОЧЕЙ",
+        "price": 350.0
+    },
+    {
+        "merchant_id": "30391577",
+        "merchant_name": "TDH",
+        "price": 1000.0
+    },
+    {
+        "merchant_id": "30405484",
+        "merchant_name": "ИП ОШУР",
+        "price": 1000.0
+    },
+    {
+        "merchant_id": "30299562",
+        "merchant_name": "ИП ПРОМЫШЛЯНСКАЯ О.В.",
+        "price": 240.0
+    },
+    {
+        "merchant_id": "30358689",
+        "merchant_name": "Техно-Ювелир",
+        "price": 70.0
+    },
+    {
+        "merchant_id": "30405930",
+        "merchant_name": "ИП ВАЛИДА",
+        "price": 588.0
+    },
+    {
+        "merchant_id": "30244862",
+        "merchant_name": "ИП \"АЛТЫН\"",
+        "price": 799.0
+    },
+    {
+        "merchant_id": "30405105",
+        "merchant_name": "ИП KITAPTAR.KZ",
+        "price": 111.0
+    },
+    {
+        "merchant_id": "30408581",
+        "merchant_name": "ИП ФОРБС",
+        "price": 89.0
+    },
+    {
+        "merchant_id": "30407207",
+        "merchant_name": "ИП ЭЛЕОНОРА",
+        "price": 150.0
+    },
+    {
+        "merchant_id": "30236872",
+        "merchant_name": "ИП КНАТОВ Ж",
+        "price": 1000.0
+    },
+    {
+        "merchant_id": "30405618",
+        "merchant_name": "ТОО \"Extreme International Trading Co. Ltd\"",
+        "price": 599.0
+    },
+    {
+        "merchant_id": "30143149",
+        "merchant_name": "Malika+",
+        "price": 750.0
+    },
+    {
+        "merchant_id": "30137069",
+        "merchant_name": "RP MARKET",
+        "price": 151.0
+    },
+    {
+        "merchant_id": "30382569",
+        "merchant_name": "KEL-ALL",
+        "price": 10.0
+    },
+    {
+        "merchant_id": "30405793",
+        "merchant_name": "ИП ДОБЛЕР",
+        "price": 10.0
+    },
+    {
+        "merchant_id": "30396485",
+        "merchant_name": "ИП ЖАҚСЫКЕЛДІ",
+        "price": 500.0
+    },
+    {
+        "merchant_id": "30383559",
+        "merchant_name": "Bai electronics",
+        "price": 1000.0
+    },
+    {
+        "merchant_id": "30323618",
+        "merchant_name": "NUR",
+        "price": 700.0
+    },
+    {
+        "merchant_id": "30376359",
+        "merchant_name": "ИП WEB TECHNOLOGIES",
+        "price": 5633.0
+    },
+    {
+        "merchant_id": "17403768",
+        "merchant_name": "Opигинал",
+        "price": 200000.0
+    },
+    {
+        "merchant_id": "12774000",
+        "merchant_name": "Lux Auto",
+        "price": 250.0
+    },
+    {
+        "merchant_id": "30325968",
+        "merchant_name": "RoNiN",
+        "price": 390.0
+    },
+    {
+        "merchant_id": "30408083",
+        "merchant_name": "DaYaNa shop",
+        "price": 990.0
+    },
+    {
+        "merchant_id": "30318863",
+        "merchant_name": "iPhone accessories",
+        "price": 107.0
+    },
+    {
+        "merchant_id": "30383276",
+        "merchant_name": "CaseBox",
+        "price": 179.0
+    },
+    {
+        "merchant_id": "30410502",
+        "merchant_name": "GAISER - официальный магазин",
+        "price": 450.0
+    },
+    {
+        "merchant_id": "3221011",
+        "merchant_name": "ALMIA Astana",
+        "price": 111.0
+    },
+    {
+        "merchant_id": "435071",
+        "merchant_name": "REVOLТ",
+        "price": 1500.0
+    },
+    {
+        "merchant_id": "30413511",
+        "merchant_name": "ИП СЫДЫКОВА",
+        "price": 70.0
+    },
+    {
+        "merchant_id": "8614000",
+        "merchant_name": "JASPER",
+        "price": 250.0
+    },
+    {
+        "merchant_id": "30303700",
+        "merchant_name": "BEK_MOBILE_17",
+        "price": 1500.0
+    },
+    {
+        "merchant_id": "30408671",
+        "merchant_name": "ИП ЖАНАРА",
+        "price": 100.0
+    },
+    {
+        "merchant_id": "30255039",
+        "merchant_name": "ИП МАШКЕНОВ",
+        "price": 266.0
+    },
+    {
+        "merchant_id": "30404327",
+        "merchant_name": "ТОО \"ONEPHONE\"",
+        "price": 2500.0
+    },
+    {
+        "merchant_id": "30346135",
+        "merchant_name": "ИП TAMIRIS",
+        "price": 100.0
+    },
+    {
+        "merchant_id": "30363130",
+        "merchant_name": "ИП EN NUR",
+        "price": 100.0
+    },
+    {
+        "merchant_id": "14647005",
+        "merchant_name": "Golden Store Empire",
+        "price": 100.0
+    },
+    {
+        "merchant_id": "30339771",
+        "merchant_name": "ИП КАЙРАТОВА",
+        "price": 200.0
+    },
+    {
+        "merchant_id": "18083031",
+        "merchant_name": "ИП \"ACCESSMARKET\"",
+        "price": 200.0
+    },
+    {
+        "merchant_id": "30408523",
+        "merchant_name": "FitDrive",
+        "price": 200.0
+    },
+    {
+        "merchant_id": "30397999",
+        "merchant_name": "YAYA SHOP",
+        "price": 10.0
+    },
+    {
+        "merchant_id": "30355743",
+        "merchant_name": "ИП АРИФЖОНОВ",
+        "price": 1000.0
+    },
+    {
+        "merchant_id": "30291846",
+        "merchant_name": "E5-Olom Официальный дистрибьютер",
+        "price": 70.0
+    },
+    {
+        "merchant_id": "4096001",
+        "merchant_name": "Click",
+        "price": 10.0
+    },
+    {
+        "merchant_id": "6896000",
+        "merchant_name": "МЖК-Mobile ",
+        "price": 10.0
+    },
+    {
+        "merchant_id": "30268972",
+        "merchant_name": "Akula Mobilе",
+        "price": 150.0
+    },
+    {
+        "merchant_id": "30067631",
+        "merchant_name": "SmartUй",
+        "price": 100.0
+    },
+    {
+        "merchant_id": "Atkltd",
+        "merchant_name": "OXi",
+        "price": 10.0
+    },
+    {
+        "merchant_id": "30357075",
+        "merchant_name": "ИП ОМАРОВА",
+        "price": 200.0
+    },
+    {
+        "merchant_id": "30379339",
+        "merchant_name": "ИП ЕРНАЗАРОВА",
+        "price": 120.0
+    },
+    {
+        "merchant_id": "ArtisOptima",
+        "merchant_name": "Artis Optima",
+        "price": 490.0
+    },
+    {
+        "merchant_id": "234005",
+        "merchant_name": "ALPHA",
+        "price": 490.0
+    },
+    {
+        "merchant_id": "540017",
+        "merchant_name": "FORTUNA",
+        "price": 490.0
+    },
+    {
+        "merchant_id": "30326525",
+        "merchant_name": "ИП MUSABEK",
+        "price": 10.0
+    },
+    {
+        "merchant_id": "960061",
+        "merchant_name": "Sirius",
+        "price": 490.0
+    }
+]
