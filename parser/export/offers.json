@@ -325,11 +325,6 @@
         "price": 10.0
     },
     {
-        "merchant_id": "12438048",
-        "merchant_name": "TOP MARKET",
-        "price": 10.0
-    },
-    {
         "merchant_id": "30037450",
         "merchant_name": "FIRDAWS ФИРМЕННЫЙ МАГАЗИН",
         "price": 10.0
@@ -465,6 +460,11 @@
         "price": 89.0
     },
     {
+        "merchant_id": "30399654",
+        "merchant_name": "Arushop",
+        "price": 10.0
+    },
+    {
         "merchant_id": "30407207",
         "merchant_name": "ИП ЭЛЕОНОРА",
         "price": 150.0
@@ -492,11 +492,6 @@
     {
         "merchant_id": "30382569",
         "merchant_name": "KEL-ALL",
-        "price": 10.0
-    },
-    {
-        "merchant_id": "30405793",
-        "merchant_name": "ИП ДОБЛЕР",
         "price": 10.0
     },
     {
@@ -625,11 +620,6 @@
         "price": 200.0
     },
     {
-        "merchant_id": "30397999",
-        "merchant_name": "YAYA SHOP",
-        "price": 10.0
-    },
-    {
         "merchant_id": "30355743",
         "merchant_name": "ИП АРИФЖОНОВ",
         "price": 1000.0
@@ -638,11 +628,6 @@
         "merchant_id": "30291846",
         "merchant_name": "E5-Olom Официальный дистрибьютер",
         "price": 70.0
-    },
-    {
-        "merchant_id": "4096001",
-        "merchant_name": "Click",
-        "price": 10.0
     },
     {
         "merchant_id": "6896000",
@@ -660,14 +645,14 @@
         "price": 100.0
     },
     {
-        "merchant_id": "Atkltd",
-        "merchant_name": "OXi",
-        "price": 10.0
-    },
-    {
         "merchant_id": "30357075",
         "merchant_name": "ИП ОМАРОВА",
         "price": 200.0
+    },
+    {
+        "merchant_id": "18659074",
+        "merchant_name": "Hommi",
+        "price": 10.0
     },
     {
         "merchant_id": "30379339",
@@ -688,11 +673,6 @@
         "merchant_id": "540017",
         "merchant_name": "FORTUNA",
         "price": 490.0
-    },
-    {
-        "merchant_id": "30326525",
-        "merchant_name": "ИП MUSABEK",
-        "price": 10.0
     },
     {
         "merchant_id": "960061",

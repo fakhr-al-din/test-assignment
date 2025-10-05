@@ -6,12 +6,14 @@ from pythonjsonlogger.json import JsonFormatter
 
 offer_limit = 20
 user_agent = "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0"
-log_level = logging.DEBUG
 
 logger = logging.getLogger("kaspi_parser")
-logger.setLevel(log_level)
+logger.setLevel(logging.DEBUG)
 ch = logging.StreamHandler()
 ch.setLevel(logging.DEBUG)
+fh = logging.FileHandler("logs/log.json")
+fh.setLevel(logging.DEBUG)
+
 formatter = JsonFormatter(
     "{asctime}{msg}",
     style="{",
@@ -19,7 +21,9 @@ formatter = JsonFormatter(
     datefmt="%Y-%m-%dT%H:%M:%S"
 )
 ch.setFormatter(formatter)
+fh.setFormatter(formatter)
 logger.addHandler(ch)
+logger.addHandler(fh)
 
 product_item_pattern = re.compile(r"(?<=BACKEND\.components\.item = ){.+}(?=\s)")
 product_category_pattern = re.compile(r'(?<="category": ").+(?=")')
