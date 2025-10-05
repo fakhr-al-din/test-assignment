@@ -13,8 +13,9 @@
 https://docs.docker.com/engine/install/  
 https://docs.docker.com/compose/install/
 
-### 3. Настройка окружения
+### 3. Настройка окружения и параметров
 При необходимости измените параметры базы данных в файле .env.  
+Ссылку на карточку товара можно поменять в файле parser/app/seed.json  
 
 ### 4. Удалить содержимое выходных файлов
 Для наглядности parser/app/offers.json и parser/app/product.json можно почистить.  
