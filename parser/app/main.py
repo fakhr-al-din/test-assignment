@@ -3,9 +3,14 @@ import json
 import re
 import logging
 from pythonjsonlogger.json import JsonFormatter
-from db.config import engine
-from db.models import Product, Offer
+from app.db.config import engine
+from app.db.models import Product, Offer
 from sqlalchemy.orm import Session
+from sqlalchemy import select
+from celery import Celery
+from celery.signals import worker_ready
+
+app = Celery('tasks', broker='pyamqp://guest@kaspi-parser-broker//')
 
 offer_limit = 20
 user_agent = "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0"
@@ -201,37 +206,73 @@ def kaspi_parser(product_url):
         offers = main_data.pop("offers")
         with open("app/export/offers.json", "w") as out:
             json.dump(offers, out, indent=4, ensure_ascii=False)
-
     with open("app/export/product.json", "w") as out:
         json.dump(main_data, out, indent=4, ensure_ascii=False)
-    with Session(engine) as session:
-        db_product = Product(
-            id=main_data["id"],
-            name=main_data["name"],
-            category=main_data["category"],
-            min_price=main_data["min_price"],
-            max_price=main_data["max_price"],
-            rating=main_data["rating"],
-            reviews_count=main_data["reviews_count"]
-        )
-        session.add(db_product)
-        session.commit()
 
     with Session(engine) as session:
-        db_offers = []
-        for offer in offers:
-            db_offers.append(
-                Offer(
-                    product_id=main_data["id"],
-                    seller=offer["merchant_name"],
-                    price=offer["price"]
-                )
+        select(Product).where(Product.id == main_data["id"])
+        existing_product = session.query(Product).where(Product.id == main_data["id"]).one_or_none()
+        if existing_product is None:
+            db_product = Product(
+                id=main_data["id"],
+                name=main_data["name"],
+                category=main_data["category"],
+                min_price=main_data["min_price"],
+                max_price=main_data["max_price"],
+                rating=main_data["rating"],
+                reviews_count=main_data["reviews_count"]
             )
-        session.add_all(db_offers)
+            session.add(db_product)
+            session.commit()
+        else:
+            if existing_product.name != main_data["name"]:
+                existing_product.name = main_data["name"]
+            if existing_product.category != main_data["category"]:
+                existing_product.category = main_data["category"]
+            if existing_product.min_price != main_data["min_price"]:
+                existing_product.min_price = main_data["min_price"]
+            if existing_product.max_price != main_data["max_price"]:
+                existing_product.max_price = main_data["max_price"]
+            if existing_product.rating != main_data["rating"]:
+                existing_product.rating = main_data["rating"]
+            if existing_product.reviews_count != main_data["reviews_count"]:
+                existing_product.reviews_count = main_data["reviews_count"]
+            session.commit()
+
+    with Session(engine) as session:
+        offers_to_add = []
+        for offer in offers:
+            existing_offer = session.query(Offer).where((Offer.product_id == main_data["id"]) & (Offer.seller_id == offer["merchant_id"])).one_or_none()
+            if existing_offer is None:
+                offers_to_add.append(
+                    Offer(
+                        product_id=main_data["id"],
+                        seller_name=offer["merchant_name"],
+                        seller_id=offer["merchant_id"],
+                        price=offer["price"]
+                    )
+                )
+            else:
+                if existing_offer.seller_name != offer["merchant_name"]:
+                    existing_offer.seller_name = offer["merchant_name"]
+                if existing_offer.price != offer["price"]:
+                    existing_offer.price = offer["price"]
+        session.add_all(offers_to_add)
         session.commit()
 
-if __name__ == "__main__":
+@app.task
+def parse_task():
     with open("app/seed.json", "r") as f:
         product = json.load(f)
     product_url = product["product_url"]
     kaspi_parser(product_url)
+
+@app.on_after_configure.connect
+def setup_periodic_tasks(sender: Celery, **kwargs):
+    sender.add_periodic_task(900.0, parse_task, name="product parser")
+
+# запустить задание сразу после готовности, а не через 15 минут
+@worker_ready.connect
+def start_up(sender: Celery, **kwargs):
+    with sender.app.connection() as conn:
+        sender.app.send_task("app.main.parse_task", connection=conn)

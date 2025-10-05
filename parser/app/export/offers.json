@@ -32,7 +32,7 @@
     {
         "merchant_id": "16033005",
         "merchant_name": "QPick",
-        "price": 1100.0
+        "price": 200.0
     },
     {
         "merchant_id": "18505100",
@@ -157,7 +157,7 @@
     {
         "merchant_id": "30313661",
         "merchant_name": "SmartTrade1",
-        "price": 1100.0
+        "price": 200.0
     },
     {
         "merchant_id": "30288643",
@@ -178,11 +178,6 @@
         "merchant_id": "30230766",
         "merchant_name": "Belio Charm",
         "price": 999.0
-    },
-    {
-        "merchant_id": "4904014",
-        "merchant_name": "SpaceTech",
-        "price": 10.0
     },
     {
         "merchant_id": "948012",
@@ -240,14 +235,14 @@
         "price": 499.0
     },
     {
-        "merchant_id": "9837032",
-        "merchant_name": "Comfort hause",
-        "price": 10.0
-    },
-    {
         "merchant_id": "30380835",
         "merchant_name": "ИП QENEZIS",
         "price": 160.0
+    },
+    {
+        "merchant_id": "30383328",
+        "merchant_name": "ECO LIVE KZ",
+        "price": 98.0
     },
     {
         "merchant_id": "30387748",
@@ -615,11 +610,6 @@
         "price": 70.0
     },
     {
-        "merchant_id": "6896000",
-        "merchant_name": "МЖК-Mobile ",
-        "price": 10.0
-    },
-    {
         "merchant_id": "30268972",
         "merchant_name": "Akula Mobilе",
         "price": 150.0
@@ -628,6 +618,11 @@
         "merchant_id": "30067631",
         "merchant_name": "SmartUй",
         "price": 100.0
+    },
+    {
+        "merchant_id": "30398313",
+        "merchant_name": "ESTARA-ОФИЦИАЛЬНЫЙ МАГАЗИН",
+        "price": 10.0
     },
     {
         "merchant_id": "30357075",
@@ -658,11 +653,6 @@
         "merchant_id": "960061",
         "merchant_name": "Sirius",
         "price": 490.0
-    },
-    {
-        "merchant_id": "30420112",
-        "merchant_name": "ИП АЯЛА",
-        "price": 2000.0
     },
     {
         "merchant_id": "30418836",

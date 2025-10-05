@@ -23,9 +23,11 @@ class Offer(Base):
     __tablename__ = "offers"
     id: Mapped[int] = mapped_column(primary_key=True)
     product_id: Mapped[int] = mapped_column(ForeignKey("products.id"))
-    seller: Mapped[str]
+    # иногда вместо номера пишется домен у продавца, поэтому вместо int поставил str
+    seller_id: Mapped[str]
+    seller_name: Mapped[str]
     price: Mapped[int]
 
     def __repr__(self) -> str:
-        return f"Offer(id={self.id!r}, product_id={self.product_id!r}, seller={self.seller!r}, price={self.price!r})"
+        return f"Offer(id={self.id!r}, product_id={self.product_id!r}, seller_id={self.seller_id!r}, seller_name={self.seller_name!r}, price={self.price!r})"
 
