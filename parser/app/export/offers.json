@@ -32,7 +32,7 @@
     {
         "merchant_id": "16033005",
         "merchant_name": "QPick",
-        "price": 200.0
+        "price": 1100.0
     },
     {
         "merchant_id": "18505100",
@@ -157,7 +157,7 @@
     {
         "merchant_id": "30313661",
         "merchant_name": "SmartTrade1",
-        "price": 200.0
+        "price": 1100.0
     },
     {
         "merchant_id": "30288643",
@@ -198,11 +198,6 @@
         "merchant_id": "30074530",
         "merchant_name": "ИП ЧОНТЕЙ",
         "price": 500.0
-    },
-    {
-        "merchant_id": "12603025",
-        "merchant_name": "FurniTech",
-        "price": 100.0
     },
     {
         "merchant_id": "17284492",
@@ -253,11 +248,6 @@
         "merchant_id": "30380835",
         "merchant_name": "ИП QENEZIS",
         "price": 160.0
-    },
-    {
-        "merchant_id": "30383328",
-        "merchant_name": "ECO LIVE KZ",
-        "price": 98.0
     },
     {
         "merchant_id": "30387748",
@@ -395,11 +385,6 @@
         "price": 490.0
     },
     {
-        "merchant_id": "30387569",
-        "merchant_name": "TOPI SHOP",
-        "price": 10.0
-    },
-    {
         "merchant_id": "30398975",
         "merchant_name": "ИП AI ACKSES_SEMEY",
         "price": 1000.0
@@ -460,11 +445,6 @@
         "price": 89.0
     },
     {
-        "merchant_id": "30399654",
-        "merchant_name": "Arushop",
-        "price": 10.0
-    },
-    {
         "merchant_id": "30407207",
         "merchant_name": "ИП ЭЛЕОНОРА",
         "price": 150.0
@@ -490,11 +470,6 @@
         "price": 151.0
     },
     {
-        "merchant_id": "30382569",
-        "merchant_name": "KEL-ALL",
-        "price": 10.0
-    },
-    {
         "merchant_id": "30396485",
         "merchant_name": "ИП ЖАҚСЫКЕЛДІ",
         "price": 500.0
@@ -513,6 +488,11 @@
         "merchant_id": "30376359",
         "merchant_name": "ИП WEB TECHNOLOGIES",
         "price": 5633.0
+    },
+    {
+        "merchant_id": "Aksess49",
+        "merchant_name": "istore_",
+        "price": 10.0
     },
     {
         "merchant_id": "17403768",
@@ -535,14 +515,14 @@
         "price": 990.0
     },
     {
-        "merchant_id": "30318863",
-        "merchant_name": "iPhone accessories",
-        "price": 107.0
-    },
-    {
         "merchant_id": "30383276",
         "merchant_name": "CaseBox",
         "price": 179.0
+    },
+    {
+        "merchant_id": "30411944",
+        "merchant_name": "Mega_Brand",
+        "price": 65.0
     },
     {
         "merchant_id": "30410502",
@@ -620,6 +600,11 @@
         "price": 200.0
     },
     {
+        "merchant_id": "30362996",
+        "merchant_name": "ИП ЖОЛДАСБАЕВА",
+        "price": 500.0
+    },
+    {
         "merchant_id": "30355743",
         "merchant_name": "ИП АРИФЖОНОВ",
         "price": 1000.0
@@ -650,11 +635,6 @@
         "price": 200.0
     },
     {
-        "merchant_id": "18659074",
-        "merchant_name": "Hommi",
-        "price": 10.0
-    },
-    {
         "merchant_id": "30379339",
         "merchant_name": "ИП ЕРНАЗАРОВА",
         "price": 120.0
@@ -678,5 +658,20 @@
         "merchant_id": "960061",
         "merchant_name": "Sirius",
         "price": 490.0
+    },
+    {
+        "merchant_id": "30420112",
+        "merchant_name": "ИП АЯЛА",
+        "price": 2000.0
+    },
+    {
+        "merchant_id": "30418836",
+        "merchant_name": "ИП AKZHOL",
+        "price": 10.0
+    },
+    {
+        "merchant_id": "30402930",
+        "merchant_name": "S&M",
+        "price": 10.0
     }
 ]

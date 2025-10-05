@@ -3,6 +3,9 @@ import json
 import re
 import logging
 from pythonjsonlogger.json import JsonFormatter
+from db.config import engine
+from db.models import Product, Offer
+from sqlalchemy.orm import Session
 
 offer_limit = 20
 user_agent = "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0"
@@ -11,7 +14,7 @@ logger = logging.getLogger("kaspi_parser")
 logger.setLevel(logging.DEBUG)
 ch = logging.StreamHandler()
 ch.setLevel(logging.DEBUG)
-fh = logging.FileHandler("logs/log.json")
+fh = logging.FileHandler("app/logs/log.json")
 fh.setLevel(logging.DEBUG)
 
 formatter = JsonFormatter(
@@ -196,14 +199,39 @@ def kaspi_parser(product_url):
     if offers_data is not None:
         main_data.update(offers_data)
         offers = main_data.pop("offers")
-        with open("export/offers.json", "w") as out:
+        with open("app/export/offers.json", "w") as out:
             json.dump(offers, out, indent=4, ensure_ascii=False)
 
-    with open("export/product.json", "w") as out:
+    with open("app/export/product.json", "w") as out:
         json.dump(main_data, out, indent=4, ensure_ascii=False)
+    with Session(engine) as session:
+        db_product = Product(
+            id=main_data["id"],
+            name=main_data["name"],
+            category=main_data["category"],
+            min_price=main_data["min_price"],
+            max_price=main_data["max_price"],
+            rating=main_data["rating"],
+            reviews_count=main_data["reviews_count"]
+        )
+        session.add(db_product)
+        session.commit()
+
+    with Session(engine) as session:
+        db_offers = []
+        for offer in offers:
+            db_offers.append(
+                Offer(
+                    product_id=main_data["id"],
+                    seller=offer["merchant_name"],
+                    price=offer["price"]
+                )
+            )
+        session.add_all(db_offers)
+        session.commit()
 
 if __name__ == "__main__":
-    with open("seed.json", "r") as f:
+    with open("app/seed.json", "r") as f:
         product = json.load(f)
     product_url = product["product_url"]
     kaspi_parser(product_url)

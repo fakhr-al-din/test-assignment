@@ -1,0 +1,67 @@
+services:
+  parser:
+    container_name: "kaspi-parser"
+    restart: no
+    build:
+      context: ./parser
+    environment:
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_USER: ${DB_USER}
+      DB_NAME: ${DB_NAME}
+      DB_PORT: ${DB_PORT}
+    depends_on:
+      database:
+        condition: service_healthy
+        restart: true
+    volumes:
+      - parser_logs:/code/app/logs/:rw
+      - parser_export:/code/app/export/:rw
+      - ./parser/app/seed.json:/code/app/seed.json:ro
+    networks:
+      - app_internet
+
+  database:
+    image: "postgres:13"
+    container_name: "kaspi-parser-db"
+    restart: no
+    environment:
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_PORT: ${DB_PORT}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER} -d ${DB_NAME}"]
+      interval: 5s
+      start_period: 5s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - db_storage:/var/lib/postgresql/data:rw
+    networks:
+      - app_internet
+
+
+networks:
+  app_internet:
+
+volumes:
+  parser_export:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ./parser/app/export/
+
+  parser_logs:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ./parser/app/logs/
+
+  db_storage:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ./db_storage/
