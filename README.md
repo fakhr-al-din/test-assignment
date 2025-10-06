@@ -8,6 +8,7 @@
 ### 1. Клонирование репозитория
 `git clone https://github.com/fakhr-al-din/test-assignment.git`  
 `cd test-assignment`  
+Удалите файл .gitkeep из папки db_storage  
 
 ### 2. Установка docker и docker compose
 https://docs.docker.com/engine/install/  
